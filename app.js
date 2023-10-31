@@ -29,3 +29,11 @@ if (myAge > 30) {
 } else {
   document.write("you are not over 10");
 }
+
+var yourAge = 25;
+
+if (yourAge >= 18 && yourAge <= 30) {
+  document.write("You can come with us!");
+} else {
+  document.write("You can not join!");
+}

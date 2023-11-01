@@ -40,8 +40,16 @@ if (yourAge >= 18 && yourAge <= 30) {
 
 var age = 5;
 
+// While Loops
 while (age < 10) {
   console.log("Your age is less than 10");
   age++;
 }
+document.write("You are now over 10");
+
+// For Loops
+for (age = 5; age < 10; age++) {
+  console.log("Your age is less than 10");
+}
+
 document.write("You are now over 10");

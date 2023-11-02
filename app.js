@@ -61,3 +61,7 @@ for (i = 1; i < links.length; i++) {
 }
 
 document.write("all links now looped");
+
+for (i = 0; i < 10; i++) {
+  console.log(i);
+}

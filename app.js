@@ -41,6 +41,7 @@ if (yourAge >= 18 && yourAge <= 30) {
 var age = 5;
 
 // While Loops
+
 while (age < 10) {
   console.log("Your age is less than 10");
   age++;
@@ -48,6 +49,7 @@ while (age < 10) {
 document.write("You are now over 10");
 
 // For Loops
+
 for (age = 5; age < 10; age++) {
   console.log("Your age is less than 10");
 }
@@ -62,6 +64,11 @@ for (i = 1; i < links.length; i++) {
 
 document.write("all links now looped");
 
+// Break & Continue
+
 for (i = 0; i < 10; i++) {
   console.log(i);
+  if (i == 7) {
+    break;
+  }
 }

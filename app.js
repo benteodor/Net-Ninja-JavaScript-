@@ -76,3 +76,9 @@ for (i = 0; i < 10; i++) {
   }
 }
 console.log("I have broken out of the loop");
+
+// Strings
+
+var myString = 'I am a "fun" string';
+
+console.log(myString.length);

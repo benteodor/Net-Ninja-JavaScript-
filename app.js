@@ -88,3 +88,9 @@ if (myString.indexOf("ninja") === -1) {
 } else {
   console.log("goodbye");
 }
+
+var string1 = "abc";
+var string2 = "ABC";
+
+/*console.log(string1.toLowerCase() === string2.toLocaleLowerCase());*/
+console.log(string1 < string2);

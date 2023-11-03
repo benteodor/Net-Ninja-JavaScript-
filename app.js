@@ -81,4 +81,10 @@ console.log("I have broken out of the loop");
 
 var myString = 'I am a "fun" string';
 
-console.log(myString.length);
+/*console.log(myString.length);*/
+/*console.log(myString.indexOf("string"));*/
+if (myString.indexOf("ninja") === -1) {
+  console.log("hello");
+} else {
+  console.log("goodbye");
+}

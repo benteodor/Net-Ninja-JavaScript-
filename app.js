@@ -104,7 +104,14 @@ myArray[1] = "hello";
 var myCar = new Object();
 myCar.maxSpeed = 50;
 myCar.driver = "Teo";
+myCar.drive = function () {
+  console.log("now driving");
+};
 
-console.log(myCar.driver);
+myCar.drive();
 
-myString.length;
+/*var myVar = "hello";*/
+
+/*console.log(myCar.driver);
+
+myString.length;*/

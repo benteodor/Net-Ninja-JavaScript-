@@ -94,3 +94,17 @@ var string2 = "ABC";
 
 /*console.log(string1.toLowerCase() === string2.toLocaleLowerCase());*/
 console.log(string1 < string2);
+
+// Creating a new JS Object
+
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = "hello";
+
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Teo";
+
+console.log(myCar.driver);
+
+myString.length;

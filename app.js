@@ -110,6 +110,19 @@ myCar.drive = function () {
 
 myCar.drive();
 
+/*var myArray2 = [true, 15, "h1"];*/
+
+var myCar2 = {
+  maxSpeed: 70,
+  driver: "Teodor",
+  drive: function () {
+    console.log("now driving");
+  },
+};
+
+console.log(myCar2.maxSpeed);
+myCar2.drive();
+
 /*var myVar = "hello";*/
 
 /*console.log(myCar.driver);

@@ -112,7 +112,7 @@ myCar.drive();
 
 /*var myArray2 = [true, 15, "h1"];*/
 
-var myCar2 = {
+/*var myCar2 = {
   maxSpeed: 70,
   driver: "Teodor",
   drive: function () {
@@ -128,3 +128,25 @@ myCar2.drive();
 /*console.log(myCar.driver);
 
 myString.length;*/
+
+var myCar = {
+  maxSpeed: 70,
+  driver: "Teo",
+  drive: function (speed, time) {
+    console.log(speed * time);
+  },
+  logDriver: function () {
+    console.log("driver name is" + this.driver);
+  },
+};
+
+var Car = function (maxSpeed, driver) {
+  this.maxSpeed = maxSpeed;
+  this.driver = driver;
+  this.drive = function (speed, time) {
+    console.log(speed * time);
+  };
+  this.logDriver = function () {
+    console.log("driver name is" + this.driver);
+  };
+};

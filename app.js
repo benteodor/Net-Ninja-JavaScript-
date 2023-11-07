@@ -129,7 +129,7 @@ myCar2.drive();
 
 myString.length;*/
 
-var myCar = {
+/*var myCar = {
   maxSpeed: 70,
   driver: "Teo",
   drive: function (speed, time) {
@@ -138,7 +138,7 @@ var myCar = {
   logDriver: function () {
     console.log("driver name is" + this.driver);
   },
-};
+};*/
 
 var Car = function (maxSpeed, driver) {
   this.maxSpeed = maxSpeed;
@@ -150,3 +150,11 @@ var Car = function (maxSpeed, driver) {
     console.log("driver name is" + this.driver);
   };
 };
+
+var myCar = new Car(70, "Ninja Man");
+var myCar2 = new Car(40, "Teo");
+var myCar3 = new Car(90, "Marius");
+var myCar4 = new Car(80, "Dana");
+
+myCar.drive(30, 5);
+myCar3.logDriver();

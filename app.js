@@ -164,10 +164,18 @@ myCar3.logDriver();
 let age = 27;
 let year = 2019;
 
-console.log(age, year);
+// log things to console
+// console.log(age, year);
 
-age = 28;
+/* age = 30; 
 console.log(age);
 
 const points = 100;
-console.log(points);
+console.log(points);*/
+
+var score = 75;
+console.log(score);
+
+// strings
+
+console.log("hello, world");

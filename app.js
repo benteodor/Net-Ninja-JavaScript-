@@ -158,3 +158,16 @@ var myCar4 = new Car(80, "Dana");
 
 myCar.drive(30, 5);
 myCar3.logDriver();
+
+// Syntax Basics & Types
+
+let age = 27;
+let year = 2019;
+
+console.log(age, year);
+
+age = 28;
+console.log(age);
+
+const points = 100;
+console.log(points);

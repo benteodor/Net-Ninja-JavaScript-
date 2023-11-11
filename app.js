@@ -188,5 +188,18 @@ console.log(email);
 let firstName = "Teodor";
 let lastName = "Popa";
 
-let fullName = firstName + lastName;
+let fullName = firstName + " " + lastName;
 console.log(fullName);
+
+// getting characters
+
+console.log(fullName[2]);
+
+// string length
+
+console.log(fullName.length);
+
+// string methods
+
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase();

@@ -179,3 +179,14 @@ console.log(score);
 // strings
 
 console.log("hello, world");
+
+let email = "teodor.popa@gmail.com";
+console.log(email);
+
+// string concatenation
+
+let firstName = "Teodor";
+let lastName = "Popa";
+
+let fullName = firstName + lastName;
+console.log(fullName);

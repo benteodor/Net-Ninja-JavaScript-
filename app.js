@@ -215,6 +215,8 @@ let email = "teodor.popa96@gmail.com";
 
 // let result = email.slice(0, 5);
 
-let result = email.substring(0, 10);
+// let result = email.substring(0, 10);
+
+let result = email.replace("m", "w");
 
 console.log(result);

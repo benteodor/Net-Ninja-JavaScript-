@@ -217,6 +217,19 @@ let email = "teodor.popa96@gmail.com";
 
 // let result = email.substring(0, 10);
 
-let result = email.replace("m", "w");
+// let result = email.replace("m", "w");
+
+let result = email.replace("n", "w");
 
 console.log(result);
+
+// Numbers
+
+let radius = 10;
+const pi = 3.14;
+
+// console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+
+console.log(10 / 2);

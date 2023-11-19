@@ -180,7 +180,7 @@ console.log(score);
 
 console.log("hello, world");
 
-let email = "teodor.popa@gmail.com";
+/*let email = "teodor.popa@gmail.com";*/
 console.log(email);
 
 // string concatenation
@@ -202,7 +202,19 @@ console.log(fullName.length);
 // string methods
 
 console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
+/*let result = fullName.toLowerCase();*/
 
 let index = email.indexOf("@");
 console.log(index);
+
+// common string methods
+
+let email = "teodor.popa96@gmail.com";
+
+// let result = email.lastIndexOf("n");
+
+// let result = email.slice(0, 5);
+
+let result = email.substring(0, 10);
+
+console.log(result);

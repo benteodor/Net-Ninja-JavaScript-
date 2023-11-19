@@ -219,7 +219,7 @@ let email = "teodor.popa96@gmail.com";
 
 // let result = email.replace("m", "w");
 
-let result = email.replace("n", "w");
+// let result = email.replace("n", "w");
 
 console.log(result);
 
@@ -232,4 +232,8 @@ const pi = 3.14;
 
 // math operators +, -, *, /, **, %
 
-console.log(10 / 2);
+//console.log(10 / 2);
+//let result = radius % 3;
+let result = pi * radius ** 2;
+
+console.log(result);

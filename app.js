@@ -250,4 +250,9 @@ let likes = 10;
 
 likes += 10;
 
-console.log(likes);
+// console.log(likes);
+
+// NaN - not a number
+
+// console.log(5 / "hello");
+// console.log(5 * "hello");

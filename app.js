@@ -271,6 +271,6 @@ const likes = 30;
 //console.log(result);
 
 // template string way
-let result = "The blog called TITLE by AUTHOR has LIKES likes";
-
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
+console.log(result);
 // creating html templates

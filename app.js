@@ -242,7 +242,7 @@ const pi = 3.14;
 
 //console.log(result);
 
-let likes = 10;
+//let likes = 10;
 
 //likes = likes + 1;
 //likes++;
@@ -257,5 +257,19 @@ likes += 10;
 // console.log(5 / "hello");
 // console.log(5 * "hello");
 
-let result = "the blog has" + likes + "likes";
+// let result = "the blog has" + likes + "likes";
 console.log(result);
+
+// template strings
+const title = "Best reads of 2019";
+const author = "Mario";
+const likes = 30;
+
+// concatenation way
+let result =
+  "The blog called" + title + "by" + author + "has" + likes + "likes";
+console.log(result);
+
+// template string way
+
+// creating html templates

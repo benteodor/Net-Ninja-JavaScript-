@@ -281,3 +281,7 @@ console.log(result);
 <span>This blog has ${likes} likes</span>
 
 console.log(html);*/
+
+let ninjas = ["shaun", "ryu", "chun-li"];
+ninjas[1] = "ken";
+console.log(ninjas[1]);

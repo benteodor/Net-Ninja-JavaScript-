@@ -271,7 +271,7 @@ const likes = 30;
 //console.log(result);
 
 // template string way
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
+//let result = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
 
 // creating html templates
@@ -283,7 +283,7 @@ console.log(result);
 console.log(html);*/
 
 let ninjas = ["shaun", "ryu", "chun-li"];
-ninjas[1] = "ken";
+/*ninjas[1] = "ken";
 console.log(ninjas[1]);
 
 let ages = [20, 25, 30, 35];
@@ -291,3 +291,11 @@ console.log(ages[2]);
 
 let random = ["shaun", "crystal", 30, 20];
 console.log(random);
+
+console.log(ninjas.length);*/
+
+// array methods
+
+let result = ninjas.join(",");
+
+console.log(result);

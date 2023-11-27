@@ -319,7 +319,7 @@ function greet() {
 speak();*/
 
 // arguments & parameters
-const speak = function (name) {
-  console.log(`good day ${name}`);
+const speak = function (name, time) {
+  console.log(`good ${time} ${name}`);
 };
-speak("mario");
+speak("mario", "morning");

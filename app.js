@@ -308,3 +308,5 @@ console.log(result);
 function greet() {
   console.log("hello there");
 }
+
+greet();

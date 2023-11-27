@@ -311,9 +311,15 @@ function greet() {
 
 // function expression
 
-const speak = function () {
+/*const speak = function () {
   console.log("good day!");
 };
 
 // greet();
-speak();
+speak();*/
+
+// arguments & parameters
+const speak = function (name) {
+  console.log(`good day ${name}`);
+};
+speak("mario");

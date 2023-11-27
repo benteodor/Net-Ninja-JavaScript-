@@ -302,3 +302,9 @@ console.log(ninjas.length);*/
 let result = ninjas.concat(["ken", "crystal"]);
 
 console.log(result);
+
+// function declaration
+
+function greet() {
+  console.log("hello there");
+}

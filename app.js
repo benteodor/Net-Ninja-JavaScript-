@@ -319,7 +319,13 @@ function greet() {
 speak();*/
 
 // arguments & parameters
-const speak = function (name, time) {
+/*const speak = function (name, time) {
   console.log(`good ${time} ${name}`);
 };
-speak("mario", "morning");
+speak("mario", "morning");*/
+
+const calcArea = function (radius) {
+  let area = 3.14 * radius ** 2;
+  console.log(area);
+};
+calcArea(5);

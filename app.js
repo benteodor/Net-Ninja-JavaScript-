@@ -325,10 +325,15 @@ speak();*/
 speak("mario", "morning");*/
 
 const calcArea = function (radius) {
-  let area = 3.14 * radius ** 2;
-  //console.log(area);
-  return area;
+  return 3.14 * radius ** 2;
 };
+// let area = 3.14 * radius ** 2;
+//console.log(area);
+/*return area;*/
+
+// arrow function
+
 const area = calcArea(5);
-console.log(area);
+console.log("area is:", area);
+
 //calcArea(5);

@@ -332,11 +332,13 @@ speak("mario", "morning");*/
 /*return area;*/
 
 // arrow function
-const calcArea = (radius) => {
+/*const calcArea = (radius, something) => {
   return 3.14 * radius ** 2;
-};
+};*/
+
+const calcArea = (radius) => 3.14 * radius ** 2;
 
 const area = calcArea(5);
 console.log("area is:", area);
 
-//calcArea(5);
+/*calcArea(5);*/

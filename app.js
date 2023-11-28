@@ -326,6 +326,9 @@ speak("mario", "morning");*/
 
 const calcArea = function (radius) {
   let area = 3.14 * radius ** 2;
-  console.log(area);
+  //console.log(area);
+  return area;
 };
-calcArea(5);
+const area = calcArea(5);
+console.log(area);
+//calcArea(5);

@@ -324,14 +324,17 @@ speak();*/
 };
 speak("mario", "morning");*/
 
-const calcArea = function (radius) {
+/*const calcArea = function (radius) {
   return 3.14 * radius ** 2;
-};
+};*/
 // let area = 3.14 * radius ** 2;
 //console.log(area);
 /*return area;*/
 
 // arrow function
+const calcArea = (radius) => {
+  return 3.14 * radius ** 2;
+};
 
 const area = calcArea(5);
 console.log("area is:", area);
